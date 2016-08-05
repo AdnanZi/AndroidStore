@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidStore</string>
+    <string name="action_admin">Admin</string>
+    <string name="action_checkout">Checkout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_home">Home</string>
+    <string name="button_product_details">Details</string>
+    <string name="button_product_add">Add</string>
+    <string name="category_home">All</string>
+    <string name="title_activity_product">ProductActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="button_product_details_back">Back</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="action_checkout_now">CheckOut Now</string>
+    <string name="action_continue_shopping">Continue Shopping</string>
+    <string name="cart_item_header">Item</string>
+    <string name="cart_price_header">Price</string>
+    <string name="cart_total_text">Total:</string>
+    <string name="cart_quantity_header">Quantity</string>
+    <string name="cart_remove">Remove</string>
+    <string name="cart_header">Your cart</string>
+    <string name="title_activity_checkout">CheckoutActivity</string>
+    <string name="checkout_header">CheckOut Now</string>
+    <string name="checkout_shipto_header">Ship To</string>
+    <string name="checkout_address_header">Address</string>
+    <string name="checkout_name_text">Name:</string>
+    <string name="checkout_location_text">Use my current location:</string>
+    <string name="checkout_line_text">Address line:</string>
+    <string name="checkout_city_text">City:</string>
+    <string name="checkout_state_text">State:</string>
+    <string name="checkout_zip_text">Zip:</string>
+    <string name="checkout_complete">Complete order</string>
+    <string name="checkout_nolocation">Unavailable</string>
+    <string name="checkout_validation">Please fill all fields</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="title_activity_complete">CompleteActivity</string>
+    <string name="complete_thankyou_message">Thank you! Your order has been processed.</string>
+    <string name="complete_home">Go to Home</string>
+    <string name="title_activity_products_list">ProductsListActivity</string>
+    <string name="action_main">Main</string>
+    <string name="button_admin_product_edit">Edit</string>
+    <string name="button_admin_product_delete">Delete</string>
+    <string name="admin_products_header">Products</string>
+    <string name="button_admin_add_product">Add Product</string>
+    <string name="title_activity_edit_product">EditProductActivity</string>
+    <string name="button_edit_product_save">Save product</string>
+    <string name="button_edit_product_insert_image">Insert new image</string>
+    <string name="edit_product_name_text">Name:</string>
+    <string name="edit_product_description_text">Description:</string>
+    <string name="edit_product_price_text">Price:</string>
+    <string name="edit_product_category_text">Category:</string>
+    <string name="edit_product_validation">Please fill all fields</string>
+    <!--<string name="title_activity_settings">Settings</string>-->
+    <string name="email_pref_header">Email</string>
+
+</resources>

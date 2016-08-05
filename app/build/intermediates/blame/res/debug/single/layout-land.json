@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/layout-land/activity_main.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/layout-land/activity_main.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/layout-land/activity_cart.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/layout-land/activity_cart.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/layout-land/list_cart.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/layout-land/list_cart.xml"
+    }
+]

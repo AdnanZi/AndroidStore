@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidstore"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+    
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.androidstore.AndroidStoreApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <meta-data android:name="com.google.android.gms.version"
+           android:value="@integer/google_play_services_version" />
+        <activity
+            android:name="com.example.androidstore.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androidstore.ProductActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.androidstore.DetailsActivity"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.androidstore.CartActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.example.androidstore.CheckoutActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="android.support.v4.app.FragmentActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.support.v4.app.FragmentActivity" />
+        </activity>
+        <activity
+            android:name="com.example.androidstore.CompleteActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.androidstore.admin.ProductsListActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.androidstore.admin.EditProductActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.androidstore.admin.LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.androidstore.admin.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:excludeFromRecents="true">
+    
+    <TextView
+        android:id="@+id/product_details_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+        <TextView
+		    android:id="@+id/product_details_name"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:textSize="40sp"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+        <ImageView 
+            android:id="@+id/product_details_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="right"
+            android:layout_gravity="top">
+            
+	     	<Button
+		        android:id="@+id/product_details_add"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/button_product_add" 
+		        android:gravity="center|fill_horizontal"/>
+	     	
+	     </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent">
+        
+        <TextView
+            android:id="@+id/product_details_description"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+        <Button 
+            android:id="@+id/product_details_back"
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_product_details_back" 
+	        android:gravity="center|fill_horizontal"
+	        android:layout_gravity="bottom"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="right">
+            
+        	<TextView
+	            android:id="@+id/product_details_price"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="fill"
+	            android:textSize="30sp"/>
+               
+        </LinearLayout>
+         
+    </LinearLayout>
+
+</LinearLayout>

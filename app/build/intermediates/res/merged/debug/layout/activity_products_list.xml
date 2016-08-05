@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/admin_products_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/admin_products_header" />
+    
+    <fragment
+        android:name="com.example.androidstore.fragments.admin.ProductsListFragment"
+        android:id="@+id/product_list_fragment"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"/>
+    
+    <LinearLayout 
+       	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical">
+    	
+        <Button 
+            android:id="@+id/admin_add_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_admin_add_product"
+            android:layout_gravity="right"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

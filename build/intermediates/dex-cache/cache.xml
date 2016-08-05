@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/adnanzi/StudioProjects/AndroidStore/app/libs/additionnal.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/pre-dexed/debug/additionnal_c7f996ef872a8fba792b55cb4f7ed10424ecb5f3.jar" />
+    </item>
+    <item
+        jar="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0_e60a9129f8a4729f9606fbbebc38f4fe6e7b450d.jar" />
+    </item>
+    <item
+        jar="/Users/adnanzi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0_bcf97b03f2fb3f1c41f96942ad8084642139f01f.jar" />
+    </item>
+    <item
+        jar="/Users/adnanzi/StudioProjects/AndroidStore/app/libs/activation.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/pre-dexed/debug/activation_e85d6baa960119d779db586fccf69f4dd24de474.jar" />
+    </item>
+    <item
+        jar="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.0_85b7b07cc5fa63c553cd3d45c42b44f9b5d73186.jar" />
+    </item>
+    <item
+        jar="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.0_f0c8987473cef194915c6a041d10684ee6b2937b.jar" />
+    </item>
+    <item
+        jar="/Users/adnanzi/StudioProjects/AndroidStore/app/libs/mail.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/pre-dexed/debug/mail_1699328af90588e543d4250c76240b9e1dc1b1b3.jar" />
+    </item>
+    <item
+        jar="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
+        <dex dex="/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-6.1.71_88f452bfb378066a50145c8778a82b302624d8a7.jar" />
+    </item>
+
+</items>

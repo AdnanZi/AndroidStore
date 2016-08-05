@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/category_name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+
+     <fragment
+        android:name="com.example.androidstore.fragments.ProductFragment"
+        android:id="@+id/product_fragment"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+         tools:layout="@layout/fragment_product" />
+
+</LinearLayout>

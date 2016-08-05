@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory
+        android:title="@string/email_pref_header">
+        
+	    <EditTextPreference 
+	        android:title="Email address" 
+	        android:dialogMessage="Enter email address" 
+	        android:dialogTitle="Email" 
+	        android:key="emailAddress" 
+	        android:id="@+id/email_pref" />
+	    
+	    <EditTextPreference 
+	        android:title="Username" 
+	        android:dialogMessage="Enter username" 
+	        android:dialogTitle="Username" 
+	        android:key="emailUsername" 
+	        android:id="@+id/username_pref" />
+	    
+	    <EditTextPreference 
+	        android:title="Password" 
+	        android:dialogMessage="Enter password" 
+	        android:dialogTitle="Password" 
+	        android:key="emailPassword" 
+	        android:id="@+id/password_pref" />
+    
+    </PreferenceCategory>
+
+</PreferenceScreen>

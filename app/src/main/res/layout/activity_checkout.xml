@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+  	<TextView 
+        android:id="@+id/checkout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout_header"
+        android:textSize="20sp"
+        android:paddingBottom="10dp" />
+  	
+  	<TextView 
+  	    android:id="@+id/checkout_validation"
+  	    android:layout_width="match_parent"
+  	    android:layout_height="wrap_content"
+  	    android:text="@string/checkout_validation"
+  	    android:textColor="#ff0000"
+  	    android:paddingBottom="5dp"
+  	    android:visibility="gone" />
+    
+  	<TextView 
+        android:id="@+id/checkout_shipto_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout_shipto_header"
+        android:textSize="15sp"
+        android:paddingBottom="5dp" />
+     
+   	<LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         
+         <TextView 
+             android:id="@+id/checkout_name_text" 
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent" 
+             android:text="@string/checkout_name_text"
+             android:paddingRight="2dp" 
+             android:layout_gravity="center_vertical"
+             android:gravity="center" />
+         
+         <EditText 
+             android:id="@+id/checkout_name_edit"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:inputType="text"
+             android:layout_gravity="center_vertical"
+             android:ems="10">
+       	</EditText>
+         
+	</LinearLayout>
+     
+   	<TextView 
+        android:id="@+id/checkout_address_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout_address_header"
+        android:textSize="15sp"
+        android:paddingBottom="5dp" />
+     
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         
+        <TextView 
+	        android:id="@+id/checkout_location_text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/checkout_location_text"
+	        android:paddingRight="2dp" 
+	        android:layout_gravity="center"
+	        android:gravity="center" />
+        
+        <TextView 
+            android:id="@+id/checkout_location_edit"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content" 
+            android:text="@string/checkout_nolocation"
+            android:layout_gravity="center"
+            android:gravity="center" />
+        
+       <CheckBox 
+            android:id="@+id/checkout_location_cb"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:enabled="false" />
+        
+	</LinearLayout>
+        
+   	<FrameLayout 
+        android:id="@+id/checkout_address_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+          
+ 	</FrameLayout>
+      
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+        
+        <Button 
+            android:id="@+id/checkout_complete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/checkout_complete"/>
+        
+   	</LinearLayout>
+   	
+    <ProgressBar
+		android:id="@+id/checkout_address_progress"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:indeterminate="true"
+		android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/edit_product.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/edit_product.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/complete.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/complete.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/checkout.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/checkout.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/details.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/details.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/cart.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/cart.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/product.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/product.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/login.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/login.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/settings.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/settings.xml"
+    },
+    {
+        "merged": "/Users/adnanzi/StudioProjects/AndroidStore/app/build/intermediates/res/merged/debug/menu/products_list.xml",
+        "source": "/Users/adnanzi/StudioProjects/AndroidStore/app/src/main/res/menu/products_list.xml"
+    }
+]
